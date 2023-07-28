@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adobe</title>
+    <title>Navbar with Dropdowns</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+<div class="navbar">
+    <a href="#" class="logo"><img src="logo.png" alt="Logo" height="60"></a>
+    <div class="dropdown">
+        <button class="dropbtn">Creativity & Design</button>
+        <div class="dropdown-content">
+            <a href="#">Photographers</a>
+            <a href="#">Social media</a>
+            <a href="#">Lightroom</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">PDF & E-signatures</button>
+        <div class="dropdown-content">
+            <a href="#">Adobe Acrobat</a>
+            <a href="#">Resources</a>
+            <a href="#">Online Tools</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Marketing & Commerce</button>
+        <div class="dropdown-content">
+            <a href="#">Products</a>
+            <a href="#">Support</a>
+            <a href="#">Events</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Help & Support</button>
+        <div class="dropdown-content">
+            <a href="#">Help Center</a>
+            <a href="#">Common tasks</a>
+            <a href="#">Contact us</a>
+        </div>
+    </div>
+
+    <input type="text" placeholder="Search" class="search-bar">
+
+    <a href="#" class="sign-in-button">Sign In</a>
+</div>
+
 </body>
 </html>
