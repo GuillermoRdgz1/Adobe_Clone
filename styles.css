@@ -228,3 +228,37 @@ body, h1, h2, p {
     margin-bottom: 10px;
     font-size: 18px;
 }
+
+
+.footer-navbar {
+    background-color: white;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.featured-products {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.featured-products span {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.footer-navbar-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-navbar-links a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+}
