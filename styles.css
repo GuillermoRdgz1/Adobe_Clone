@@ -86,3 +86,84 @@ body {
 .logo {
     height: 60px;
 }
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.big-box {
+    width: 100%;
+    max-width: 1303px;
+    background-color: #f1f1f1;
+    padding: 300px;
+    margin-bottom: 1px;
+    background-image: url('top.jpg');
+    color: rgb(255, 255, 255);
+}
+
+.blue-button {
+    background-color: rgb(57, 121, 240);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-link {
+    margin-left: 10px; 
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-link:hover {
+    text-decoration: underline;
+}
+
+.nav-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.nav-text {
+    font-size: 20px;
+    margin-right: 10px; 
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.nav-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+.nav-button:hover {
+    background-color: #555;
+}
+
