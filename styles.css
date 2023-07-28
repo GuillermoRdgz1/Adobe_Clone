@@ -204,3 +204,27 @@ body, h1, h2, p {
 .box:nth-child(3) {
     background-image: url('three.png');
 }
+
+.footer {
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    line-height: 30px;
+    font-size: smaller;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex-basis: calc(20% - 20px); 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
